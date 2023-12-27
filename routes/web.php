@@ -19,4 +19,4 @@ use App\Http\Controllers\ExampleController;
 // it immediately
 Route::get('/', [ExampleController::class, "homepage"]);
 
-Route::get('/about', [ExampleController::class, "aboutPage"]);
+Route::get('/single-post', [ExampleController::class, "singlePost"]);

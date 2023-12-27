@@ -16,7 +16,7 @@ class ExampleController extends Controller
         return view('homepage', ['userInfo' => $userInfo]);
     }
 
-    public function aboutPage() {
-        return '<h1>About Page</h1><a href="/">Back to the Home Page</a>';
+    public function singlePost() {
+        return view('single-post');
     }
 }
